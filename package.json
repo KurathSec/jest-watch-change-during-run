@@ -1,0 +1,7 @@
+{
+  "name": "jest-watch-change-during-run",
+  "private": true,
+  "scripts": { "watch": "jest --watchAll" },
+  "devDependencies": { "jest": "30.5.2" },
+  "jest": { "testEnvironment": "node", "watchman": false, "roots": ["<rootDir>/tests"] }
+}
